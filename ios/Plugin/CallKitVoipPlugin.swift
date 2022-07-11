@@ -3,7 +3,6 @@ import Capacitor
 import UIKit
 import CallKit
 import PushKit
-import TwilioVideo
 
 /**
  *  CallKit Voip Plugin provides native PushKit functionality with apple CallKit to ionic capacitor
@@ -109,14 +108,14 @@ extension CallKitVoipPlugin: PKPushRegistryDelegate {
     
     public func pushRegistry(_ registry: PKPushRegistry, didReceiveIncomingPushWith payload: PKPushPayload, for type: PKPushType, completion: @escaping () -> Void) {
         
-        guard let connectionId = payload.dictionaryPayload["ConnectionId"] as? String else {
-            return
-        }
+//        guard let connectionId = payload.dictionaryPayload["ConnectionId"] as? String else {
+//            return
+//        }
         
-        let username        = (payload.dictionaryPayload["Username"] as? String) ?? "Anonymus"
+       // let username        = (payload.dictionaryPayload["Username"] as? String) ?? "Anonymus"
         
         
-        self.incommingCall(from: username, connectionId: connectionId)
+        self.incommingCall(from: "username", connectionId: "123")
     }
     
 }
