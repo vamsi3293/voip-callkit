@@ -1,4 +1,4 @@
-package com.bfine.capactior.callkitvoip.androidcall;
+package com.test.callkit.androidcall;
 
 import android.app.ActivityManager;
 import android.app.KeyguardManager;

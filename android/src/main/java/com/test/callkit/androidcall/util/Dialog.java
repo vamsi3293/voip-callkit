@@ -1,4 +1,4 @@
-package com.bfine.capactior.callkitvoip.androidcall.util;
+package com.test.callkit.androidcall.util;
 
 
 import android.content.Context;
@@ -7,7 +7,7 @@ import android.widget.EditText;
 
 import androidx.appcompat.app.AlertDialog;
 
-import com.bfine.capactior.callkitvoip.R;
+import com.test.callkit.R;
 
 public class Dialog {
 

@@ -1,4 +1,4 @@
-package com.bfine.capactior.callkitvoip.androidcall;
+package com.test.callkit.androidcall;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -31,9 +31,9 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.app.NotificationCompat;
 import androidx.core.content.ContextCompat;
 
-import com.bfine.capactior.callkitvoip.CallKitVoipPlugin;
-import com.bfine.capactior.callkitvoip.R;
-import com.bfine.capactior.callkitvoip.androidcall.util.CameraCapturerCompat;
+import com.test.callkit.CallKitVoipPlugin;
+import com.test.callkit.R;
+import com.test.callkit.androidcall.util.CameraCapturerCompat;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.twilio.audioswitch.AudioDevice;

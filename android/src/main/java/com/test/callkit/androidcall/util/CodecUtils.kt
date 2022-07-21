@@ -1,4 +1,4 @@
-package com.bfine.capactior.callkitvoip.androidcall.util
+package com.test.callkit.androidcall.util
 
 import tvi.webrtc.HardwareVideoDecoderFactory
 import tvi.webrtc.HardwareVideoEncoderFactory

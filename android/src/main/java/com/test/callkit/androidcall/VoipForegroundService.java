@@ -1,4 +1,4 @@
-package com.bfine.capactior.callkitvoip.androidcall;
+package com.test.callkit.androidcall;
 
 import android.app.NotificationChannel;
 import android.app.NotificationManager;
@@ -18,7 +18,7 @@ import android.util.Log;
 import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
-import com.bfine.capactior.callkitvoip.R;
+import com.test.callkit.R;
 
 import java.util.Objects;
 
